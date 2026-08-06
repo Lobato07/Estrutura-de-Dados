@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+int somar (int a, int b);
 
 int main(){
 
@@ -34,6 +35,22 @@ int main(){
     cout<<endl<<endl;
 // ------------------------------------------------------------------------------------------------------
     cout<<"5) Crie uma função que some dois números usando uma função que recebe ponteiros e retorne o resultado como um ponteiro"<<endl;
+    int f1 = 0, f2 = 0, f3 = 0, *pntr1 = &f1, *pntr2 = &f2, *pntr3 = &f3;
+
+    cout<<"Digite o valor de A: ";
+    cin >> *pntr1;
+    cout<<"Digite o valor de B: ";
+    cin >> *pntr2;
+
+    f3 = somar(*pntr1, *pntr2);
+    
+    cout<<"O resultado da soma eh: "<< *pntr3 << endl << endl;
+// ------------------------------------------------------------------------------------------------------
+    cout<<"6) Crie uma função dobra que recebe um valor ponteiro de float e dobra seu valor retornando o valor em dobro na mesma variável"<<endl;
 
     return EXIT_SUCCESS;
+}
+
+int somar (int a , int b){
+    return a + b;
 }
