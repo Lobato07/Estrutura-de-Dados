@@ -11,13 +11,7 @@ int main(){
     // cout << "Valor de A: " << a << endl;
     // cout<<"Endereco na memoria: " << pntr << endl << endl;
 // ------------------------------------------------------------------------------------------------------
-    // cout << "2) Modifique o valor de uma variável usando seu ponteiro" << endl;
-    // int b = 3, *pntrb = &b;
-    // cout<<"Valor de B: " << b << endl;
 
-    // *pntrb = 20;
-    // cout<<"Valor alterado de B: "<< *pntrb << endl << endl;
-// ------------------------------------------------------------------------------------------------------
     // cout<<"3) Use um ponteiro para ler um valor digitado pelo usuario."<<endl;
     // int c, *pntrc = &c;
 
