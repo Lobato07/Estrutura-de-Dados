@@ -12,15 +12,6 @@ int main(){
     // cout<<"Endereco na memoria: " << pntr << endl << endl;
 // ------------------------------------------------------------------------------------------------------
 
-    // cout << "4) Crie um array e percorra-o usando ponteiros." << endl;
-    // int d, array[5] = {7, 4, 2, 1, 9}, *pntrd = &d;
-
-    // for (int i = 0; i < 5; i++){
-    //     d = array[i];
-    //     cout<<*pntrd<<endl;
-    // }
-    // cout<<endl<<endl;
-// ------------------------------------------------------------------------------------------------------
     // cout<<"5) Crie uma funcao que some dois números usando uma funcao que recebe ponteiros e retorne o resultado como um ponteiro"<<endl;
     // int f1 = 0, f2 = 0, f3 = 0, *pntr1 = &f1, *pntr2 = &f2, *pntr3 = &f3;
 
@@ -48,10 +39,6 @@ int main(){
 
     return EXIT_SUCCESS;
 }
-
-// int somar (int a , int b){
-//     return a + b;
-// }
 
 // void dobra (float *a){
 //     *a = *a * 2;
