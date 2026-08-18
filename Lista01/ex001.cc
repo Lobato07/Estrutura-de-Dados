@@ -12,14 +12,6 @@ int main(){
     // cout<<"Endereco na memoria: " << pntr << endl << endl;
 // ------------------------------------------------------------------------------------------------------
 
-    // cout<<"3) Use um ponteiro para ler um valor digitado pelo usuario."<<endl;
-    // int c, *pntrc = &c;
-
-    // cout<<"Digite um valor para o ponteiro: ";
-    // cin >> *pntrc;
-
-    // cout<<"Valor do ponteiro: "<< *pntrc << endl<< endl; 
-// ------------------------------------------------------------------------------------------------------
     // cout << "4) Crie um array e percorra-o usando ponteiros." << endl;
     // int d, array[5] = {7, 4, 2, 1, 9}, *pntrd = &d;
 
