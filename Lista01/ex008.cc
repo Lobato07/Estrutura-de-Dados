@@ -16,5 +16,5 @@ int main(){
     cin >> entrada;
 
     inverte(entrada,saida);
-    cout << "A saida invertida eh: " << saida;
+    cout << "A saida invertida eh: " << saida << endl;
 }
