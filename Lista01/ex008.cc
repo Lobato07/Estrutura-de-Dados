@@ -17,4 +17,6 @@ int main(){
 
     inverte(entrada,saida);
     cout << "A saida invertida eh: " << saida << endl;
+
+    return EXIT_SUCCESS;
 }
