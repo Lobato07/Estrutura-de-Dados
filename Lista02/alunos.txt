@@ -1,3 +1,0 @@
-Aluno               Idade      Nota
-Gustavo                21         7
-Theo                   24        10
