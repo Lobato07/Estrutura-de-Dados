@@ -16,5 +16,6 @@ int main (){
         cout<<linha<<endl;
     }
 
+    arq.close();
     return EXIT_SUCCESS;
 }
