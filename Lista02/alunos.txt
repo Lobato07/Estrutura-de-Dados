@@ -1,3 +1,4 @@
 Aluno               Idade      Nota
-Gustavo                21         9
-Theo                   24        10
+Anita                  21        10
+Lego                   21        -1
+Gustavo                21         6

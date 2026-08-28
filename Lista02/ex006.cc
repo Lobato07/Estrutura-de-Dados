@@ -33,7 +33,7 @@ int main(){
         if (posicao == 1) {
             maior = numeroLido;
             menor = numeroLido;
-        } 
+        }
         else {
             if (numeroLido > maior) {
                 maior = numeroLido;
