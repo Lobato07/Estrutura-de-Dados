@@ -1,14 +1,53 @@
-#include <stdio.h>
-#include <iostream> // C++, biblioteca padrão.
-#include <filesystem>
-using namespace std; // C++, usa a biblioteca padrão
-using namespace std::filesystem;
+#include <iostream>
+#include <cstdlib>
+using namespace std;
 
-int main(){
-    printf("Hellor world!\n");
-    cout <<"Hello world!"<< endl; //endl é o \n universal do C++ ; // C++
-    
-    return EXIT_SUCCESS; //return 0 do c++
+struct complexo{
+    float r, i;
+};
+
+complexo atribuir(float real, float imag){
+    complexo res;
+    res.r = real;
+    res.i = imag;
+    return res;
 }
 
-// Comando para compilar c++: g++ -o (nome do executavel) (nome do executavel).cpp OU .cc
+void imprimie(complexo r){
+    cout << r.r << " " << r.i << "i" << endl;
+}
+
+void copia(complexo origem, complexo *destino){
+    (*destino).r = origem.r;
+    (*destino).i = origem.i;
+}
+
+complexo soma(complexo a, complexo b){
+    complexo res;
+    res.r = a.r + b.r;
+    res.i = a.i + b.i;
+    return res;
+}
+
+bool ehreal(complexo a){
+    return !a.i;
+}
+
+int main(){
+    complexo a, b, c;
+
+    cout << "Digite dois numeros com parte real e imaginaria: ";
+    cin >> a.r >> a.i >> b.r >> b.i;
+
+    imprimie(a);
+    imprimie(b);
+
+    copia(a, &c);
+    imprimie(c);
+
+    imprimie(soma(a, b));
+
+    cout << ehreal(a);
+
+    return EXIT_SUCCESS;
+}
