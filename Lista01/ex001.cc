@@ -1,13 +1,20 @@
 #include <iostream>
+#include <locale>
 using namespace std;
 
 int main(){
 
-    cout << "1) Declare um inteiro, crie um ponteiro para ele e imprima o valor e o endereço." << endl;
-    int a = 5, *pntr = &a;
+    locale::global(locale("pt_BR.UTF-8"));
 
-    cout << "Valor de A: " << a << endl;
-    cout<<"Endereco na memoria: " << pntr << endl << endl;
+    // Declare um inteiro, crie um ponteiro para ele e imprima o valor e o endereço.
 
+    int var1 = 10;
+    int *pont;
+    
+    pont =& var1;
+
+    cout << "Valor do ponteiro: " << *pont << endl;
+    cout << "Endereço na memoria do ponteiro: " << pont << endl;
+    
     return EXIT_SUCCESS;
 }
