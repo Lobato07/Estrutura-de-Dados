@@ -36,8 +36,10 @@ int main(){
 
     cout << "Valor depositado dentro da variavel do pont3: " << *pont3 << endl;
 
-    *pont3 = *pont1;
+    // *pont3 = *pont1; // aqui o *pont3 vira 50, que é o valor do *pont1;
+    pont3 = pont1; // MUDANDO O ENDEREÇO!!!
 
+    cout << "Novo valor do pont3: " << *pont3 << endl ;
 
 
     return EXIT_SUCCESS;
