@@ -36,6 +36,8 @@ int main(){
 
     cout << "Valor depositado dentro da variavel do pont3: " << *pont3 << endl;
 
+    *pont3 = *pont1;
+
 
 
     return EXIT_SUCCESS;
