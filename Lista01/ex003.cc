@@ -1,14 +1,22 @@
 #include <iostream>
+#include <locale>
 using namespace std;
 
 int main(){
-    cout<<"3) Use um ponteiro para ler um valor digitado pelo usuario."<<endl;
-    int c, *pntrc = &c;
 
-    cout<<"Digite um valor para o ponteiro: ";
-    cin >> *pntrc;
+    locale::global(locale("pt_BR.UTF-8"));
+    
+    // Use um ponteiro para ler um valor digitado pelo usuário.
 
-    cout<<"Valor do ponteiro: "<< *pntrc << endl<< endl; 
+    int var = 0;
+    int *pont;
+
+    cout << "Digite um valor: ";
+    cin >> var ;
+
+    pont =& var;
+
+    cout << "Valor digitado: " << *pont << endl;
     
     return EXIT_SUCCESS;
 }
