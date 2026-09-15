@@ -1,0 +1,2 @@
+1;geladeira;2600;
+2;controle remoto;30;
